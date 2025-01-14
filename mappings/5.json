@@ -1,0 +1,19 @@
+{
+	"request": {
+    "method": "GET",
+    "urlPattern": "/v2/test/(.*)"
+  },
+  "response":{
+    "status": 200,
+    "jsonBody": {
+      "name": "test1111",
+      "age": 2,
+      "id1": "{{request.path}}",
+      "id2": "{{request.path.[2]}}"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["response-template"]
+  }
+}

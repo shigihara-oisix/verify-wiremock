@@ -1,0 +1,16 @@
+{
+	"request": {
+    "method": "GET",
+    "urlPath": "/v1/test/1111"
+  },
+  "response":{
+    "status": 200,
+    "jsonBody": {
+      "name": "test1111",
+      "age": 1 
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

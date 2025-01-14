@@ -1,0 +1,18 @@
+{
+	"request": {
+    "method": "POST",
+    "urlPath": "/v2/submit",
+    "bodyPatterns": [
+       {"matchesJsonPath": "$.customerId"},
+       {"matchesJsonPath": "$.id"}
+    ]
+  },
+  "response":{
+    "status": 200,
+    "bodyFileName": "6.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["response-template"]
+  }
+}

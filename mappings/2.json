@@ -1,0 +1,17 @@
+{
+  "priority": 999,
+	"request": {
+    "method": "GET",
+    "urlPattern": "/v1/test/.*"
+  },
+  "response":{
+    "status": 200,
+    "jsonBody": {
+      "name": "test-other",
+      "age": 1 
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

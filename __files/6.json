@@ -1,0 +1,6 @@
+ {
+      "name": "mock json file",
+      "age": {{jsonPath request.body '$.age' default=0}},
+      "customerId": "{{jsonPath request.body '$.customerId'}}",
+      "id": "{{jsonPath request.body '$.id'}}"
+}

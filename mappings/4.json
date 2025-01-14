@@ -1,0 +1,16 @@
+{
+	"request": {
+    "method": "GET",
+    "urlPattern": "/v1/test/.*1$"
+  },
+  "response":{
+    "status": 200,
+    "jsonBody": {
+      "name": "suffix-1",
+      "age": 1 
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
